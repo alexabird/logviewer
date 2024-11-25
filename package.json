@@ -59,7 +59,10 @@
     "styled-components": "5.1.0",
     "tap": "5.7.2",
     "tape": "4.5.1",
-    "@connexta/ace": "git://github.com/connexta/ace.git#f51c1b59ec73fea2c196cf5b59eaf4ad48dddcee"
+    "@connexta/ace": "git+https://github.com/connexta/ace.git#f51c1b59ec73fea2c196cf5b59eaf4ad48dddcee"
+  },
+  "resolutions": {
+    "@connexta/eslint-plugin-connexta": "git+https://github.com/connexta/eslint-plugin-connexta.git#v0.0.2"
   },
   "browserify": {
     "transform": [
